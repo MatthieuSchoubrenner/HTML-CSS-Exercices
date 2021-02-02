@@ -1,0 +1,172 @@
+body {
+  background: linear-gradient(rgb(41, 38, 38), grey);
+}
+
+/* -------------------------------------------------------- */
+
+h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.2px;
+  transition: 5s;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+}
+
+/* -------------------------------------------------------- */
+/* nav */
+a {
+  list-style-type: none;
+  flex-grow: 0.2;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+a:visited {
+  color: rgb(122, 138, 235);
+}
+
+ul {
+  display: flex;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  transition: 5s;
+}
+
+li {
+  flex-grow: 0.2;
+  justify-content: center;
+  padding: 5px;
+  list-style-type: none;
+  margin-left: 100px;
+  margin-top: 40px;
+  line-height: 50%;
+  font-size: 1em;
+}
+
+/* FIN NAV */
+
+/* ------------------------------------------------ */
+
+/* IMAGE ILLUSTRATION */
+#image {
+  border: 1px solid black;
+  width: 600px;
+  height: 300px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+#image img {
+  width: 100%;
+}
+
+#legende {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: justify;
+  padding: 5px;
+  top: 0;
+  transition: top 0.5s 0.5s;
+}
+
+#legende h3 {
+  margin-bottom: 15px;
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+#image:hover #legende {
+  top: -80px;
+}
+
+/* FIN IMAGE PETITE */
+
+#imagemoyenne {
+  border: 1px solid black;
+  width: 900px;
+  height: 600px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+#image img {
+  width: 100%;
+}
+
+#legende {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: justify;
+  padding: 5px;
+  top: 0;
+  transition: top 0.5s 0.5s;
+}
+
+#legende h3 {
+  margin-bottom: 15px;
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+#imagemoyenne:hover #legende {
+  top: -50px;
+}
+
+/* FIN IMAGE MOYENNE */
+
+#imagegrande {
+  border: 1px solid black;
+  width: 800px;
+  height: 1000px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+#image img {
+  width: 100%;
+}
+
+#legende {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: justify;
+  padding: 5px;
+  top: 0;
+  transition: top 0.5s 0.5s;
+}
+
+#legende h3 {
+  margin-bottom: 15px;
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+#imagegrande:hover #legende {
+  top: -80px;
+}
+
+/* FIN IMAGE GRANDE */
+/* FIN IMAGE ILLUSTRATION */
+
+/* ------------------------------------------------ */
+/* FOOTER */
+footer {
+  background-color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.7em;
+  font-family: 'Coda Caption', sans-serif;
+}

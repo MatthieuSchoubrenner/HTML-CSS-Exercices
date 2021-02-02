@@ -1,0 +1,296 @@
+h1 {
+    text-align: center;
+}
+
+#container {
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    left: 350px;
+    background-color: black;
+    display: grid;
+    grid-template-areas:
+        'wh01 wh02 wh02 wh02 wh02 wh02 wh02 wh02 wh03 wh03 wh03 wh03 wh03 wh03 wh03 wh03 wh04 ye01'
+        'wh01 bl01 bl01 bl01 bl01 bl01 bl01 bl01 wh05 wh05 wh05 bl02 bl02 bl02 bl02 bl02 wh04 ye01'
+        'wh01 bl01 bl01 bl01 bl01 bl01 bl01 bl01 wh05 wh05 wh05 bl02 bl02 bl02 bl02 bl02 wh04 ye01'
+        'da01 wh55 wh55 da02 wh06 wh06 wh06 wh07 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
+        'da01 wh55 wh55 da02 wh06 wh06 wh06 wh07 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
+        'da01 wh55 wh55 da02 wh06 wh06 wh06 wh07 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
+        'da01 wh55 wh55 da02 wh06 wh06 wh06 wh07 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
+        'da01 wh55 wh55 da02 wh06 wh06 wh06 wh07 ye02 ye02 ye02 re01 re01 re01 re01 re02 wh04 ye01'
+        'da01 wh55 wh55 da02 ye03 re03 re03 re03 bl03 bl03 bl03 wh08 wh08 wh08 wh08 wh09 da03 da03'
+        'da01 wh55 wh55 da02 ye03 re03 re03 re03 bl03 bl03 bl03 wh08 wh08 wh08 wh08 wh09 da03 da03'
+        'wh10 re04 re04 da02 ye04 wh11 wh11 wh11 wh11 wh11 wh12 wh12 wh12 bl04 bl04 ye05 wh13 wh13'
+        'wh10 re04 re04 da02 ye04 wh11 wh11 wh11 wh11 wh11 wh12 wh12 wh12 bl04 bl04 ye05 wh13 wh13'
+        'wh10 re04 re04 da02 ye04 wh11 wh11 wh11 wh11 wh11 wh12 wh12 wh12 bl04 bl04 ye05 wh13 wh13'
+        'wh10 re04 re04 da02 ye04 wh11 wh11 wh11 wh11 wh11 wh12 wh12 wh12 bl04 bl04 ye05 wh13 wh13'
+        'wh10 re04 re04 da02 ye04 re05 re05 re05 da04 da04 da04 da04 da04 wh15 wh15 wh15 wh15 wh15'
+        'wh14 wh14 wh14 wh14 ye04 re05 re05 re05 da04 da04 da04 da04 da04 wh15 wh15 wh15 wh15 wh15'
+        'wh14 wh14 wh14 wh14 ye04 re05 re05 re05 da04 da04 da04 da04 da04 wh15 wh15 wh15 wh15 wh15';
+    grid-gap: 13px;
+
+}
+
+/* blanc */
+#blanc1,
+#blanc2,
+#blanc3,
+#blanc4,
+#blanc5,
+#blanc6,
+#blanc7,
+#blanc8,
+#blanc9,
+#blanc10,
+#blanc11,
+#blanc12,
+#blanc13,
+#blanc14,
+#blanc15,
+#blanc16 {
+    background-color: #e6e6e6;
+}
+
+#blanc1 {
+    grid-area: wh01;
+}
+
+#blanc2 {
+    grid-area: wh02;
+}
+
+#blanc3 {
+    grid-area: wh03;
+}
+
+#blanc4 {
+    grid-area: wh04;
+}
+
+#blanc5 {
+    grid-area: wh05;
+}
+
+#blanc6 {
+    grid-area: wh55;
+}
+
+#blanc7 {
+    grid-area: wh06;
+}
+
+#blanc8 {
+    grid-area: wh07;
+}
+
+#blanc9 {
+    grid-area: wh08;
+}
+
+#blanc10 {
+    grid-area: wh09;
+}
+
+#blanc11 {
+    grid-area: wh10;
+}
+
+#blanc12 {
+    grid-area: wh11;
+}
+
+#blanc13 {
+    grid-area: wh12;
+}
+
+#blanc14 {
+    grid-area: wh13;
+}
+
+#blanc15 {
+    grid-area: wh14;
+}
+
+#blanc16 {
+    grid-area: wh15;
+}
+
+/* fin blanc */
+
+/* ------------------------------------------------------------ */
+
+/* bleu */
+#bleu17,
+#bleu18,
+#bleu19,
+#bleu20 {
+    background-color: #0f036c;
+}
+
+#bleu17 {
+    grid-area: bl01;
+}
+
+#bleu18 {
+    grid-area: bl02;
+}
+
+#bleu19 {
+    grid-area: bl03;
+}
+
+#bleu20 {
+    grid-area: bl04;
+}
+
+/* fin bleu */
+
+/* ------------------------------------------------------------ */
+
+/* rouge */
+#rouge21,
+#rouge22,
+#rouge23,
+#rouge24,
+#rouge25 {
+    background-color: #c80707;
+}
+
+#rouge21 {
+    grid-area: re01;
+}
+
+#rouge22 {
+    grid-area: re02;
+}
+
+#rouge23 {
+    grid-area: re03;
+}
+
+#rouge24 {
+    grid-area: re04;
+}
+
+#rouge25 {
+    grid-area: re05;
+}
+
+/* fin rouge */
+
+/* ------------------------------------------------------------ */
+
+/* jaune */
+#jaune26,
+#jaune27,
+#jaune28,
+#jaune29,
+#jaune30 {
+    background-color: #efbc0e;
+}
+
+#jaune26 {
+    grid-area: ye01;
+}
+
+#jaune27 {
+    grid-area: ye02;
+}
+
+#jaune28 {
+    grid-area: ye03;
+}
+
+#jaune29 {
+    grid-area: ye04;
+}
+
+#jaune30 {
+    grid-area: ye05;
+}
+
+/* fin jaune */
+
+/* ------------------------------------------------------------ */
+
+/* noir */
+#noir31,
+#noir32,
+#noir33,
+#noir34 {
+    background-color: black;
+}
+
+#noir31 {
+    grid-area: da01;
+}
+
+#noir32 {
+    grid-area: da02;
+}
+
+#noir33 {
+    grid-area: da03;
+}
+
+#noir34 {
+    grid-area: da04;
+}
+
+/* fin noir */
+
+/* ------------------------------------------------------------ */
+
+
+
+#blanc16:hover {
+    background-image: url(../IMG/DrDisRespectLogo.jpg);
+    background-size: 50%;
+    background-position: center;
+}
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$**""""`` ````"""#*R$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$*""      ..........      `"#$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$#"    .ue@$$$********$$$$Weu.   `"*$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$#"   ue$$*#""              `""*$$No.   "R$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$P"   u@$*"`                         "#$$o.  ^*$$$$$$$$$$$$$$
+$$$$$$$$$$$P"  .o$R"               . .WN.           "#$Nu  `#$$$$$$$$$$$$
+$$$$$$$$$$"  .@$#`       'ou  .oeW$$$$$$$$W            "$$u  "$$$$$$$$$$$
+$$$$$$$$#   o$#`      ueL  $$$$$$$$$$$$$$$$ku.           "$$u  "$$$$$$$$$
+$$$$$$$"  x$P`        `"$$u$$$$$$$$$$$$$$"#$$$L            "$o   *$$$$$$$
+$$$$$$"  d$"        #$u.2$$$$$$$$$$$$$$$$  #$$$Nu            $$.  #$$$$$$
+$$$$$"  @$"          $$$$$$$$$$$$$$$$$$$$k  $$#*$$u           #$L  #$$$$$
+$$$$"  d$         #Nu@$$$$$$$$$$$$$$$$$$"  x$$L #$$$o.         #$c  #$$$$
+$$$F  d$          .$$$$$$$$$$$$$$$$$$$$N  d$$$$  "$$$$$u        #$L  #$$$
+$$$  :$F        ..`$$$$$$$$$$$$$$$$$$$$$$$$$$$`    R$$$$$eu.     $$   $$$
+$$!  $$        . R$$$$$$$$$$$$$$$$$$$$$$$$$$$$$.   @$$$$$$$$Nu   '$N  `$$
+$$  x$"        Re$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$uu@"``"$$$$$$$i   #$:  $$
+$E  $$       c 8$$$$$$$$$$$$$$$$$$$$$G(   ``^*$$$$$$$WW$$$$$$$$N   $$  4$
+$~ :$$N. tL i)$$$$$$$$$$$$$$$$$$$$$$$$$N       ^#R$$$$$$$$$$$$$$$  9$  '$
+$  t$$$$u$$W$$$$$$$$$$$$$$!$$$$$$$$$$$$$&       . c?"*$$$R$$$$$$$  '$k  $
+$  @$$$$$$$$$$$$$$$$$$$$"E F!$$$$$$$$$$."        +."@\* x .""*$$"   $B  $
+$  $$$$$$$$$$$$$$$$"$)#F     $$$$$$$$$$$           `  -d>x"*=."`    $$  $
+$  $$$$$$$$$$?$$R'$ `#d$""    #$$$$$$$$$ > .                "       $$  $
+$  $$$$$$$($$@$"` P *@$.@#"!    "*$$$$$$$L!.                        $$  $
+$  9$$$$$$$L#$L  ! " <$$`          "*$$$$$NL:"z  f                  $E  $
+$> ?$$$$ $$$b$^      .$c .ueu.        `"$$$$b"x"#  "               x$!  $
+$k  $$$$N$ "$$L:$oud$$$` d$ .u.         "$$$$$o." #f.              $$   $
+$$  R$""$$o.$"$$$$""" ue$$$P"`"c          "$$$$$$Wo'              :$F  t$
+$$: '$&  $*$$u$$$$u.ud$R" `    ^            "#*****               @$   $$
+$$N  #$: E 3$$$$$$$$$"                                           d$"  x$$
+$$$k  $$   F *$$$$*"                                            :$P   $$$
+$$$$  '$b                                                      .$P   $$$$
+$$$$b  `$b                                                    .$$   @$$$$
+$$$$$N  "$N                                                  .$P   @$$$$$
+$$$$$$N  '*$c                                               u$#  .$$$$$$$
+$$$$$$$$.  "$N.                                           .@$"  x$$$$$$$$
+$$$$$$$$$o   #$N.                                       .@$#  .@$$$$$$$$$
+$$$$$$$$$$$u  `#$Nu                                   u@$#   u$$$$$$$$$$$
+$$$$$$$$$$$$$u   "R$o.                             ue$R"   u$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$o.  ^#$$bu.                     .uW$P"`  .u$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$u   `"#R$$Wou..... ....uueW$$*#"   .u@$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$Nu.    `""#***$$$$$***"""`    .o$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$eu..               ...ed$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$NWWeeeeedW@$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/

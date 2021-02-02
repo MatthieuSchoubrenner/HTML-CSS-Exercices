@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    font-family: 'Crete Round', sans-serif;
+}
+
+
+/* header */
+header {
+    border: black solid 2px;
+    text-align: center;
+    padding: 15px 0;
+    background: red;
+}
+
+/* nav */
+a {
+    list-style-type: none;
+    flex-grow: 0.2;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    border: rgb(0, 0, 0) solid 2px;
+    flex-grow: 0.2;
+    justify-content: center;
+    padding: 5px;
+    list-style-type: none;
+}
+
+/* fin nav */
+/* fin header */
+
+/* contenu */
+article {
+    display: flex;
+    background-color: rgb(24, 145, 150);
+    padding: 20px;
+
+
+}
+
+#presentation {
+    display: flex;
+    height: 800px;
+}
+
+.gauche {
+    background-color: yellow;
+    padding: 20px;
+}
+
+.droite {
+    background-color: rgb(206, 68, 194);
+    padding: 20px;
+}
+
+/* fin contenu */
+
+footer {
+    background-color: rgb(111, 243, 139);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}

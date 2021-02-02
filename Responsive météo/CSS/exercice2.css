@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+/* ---------------------------------------- */
+header {
+  width: 100%;
+  height: 190px;
+}
+
+header,
+h1 {
+  margin-left: 10px;
+}
+
+header>ul {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+header>div div {
+  float: left;
+  width: 130px;
+}
+
+header>div div img {
+  float: left;
+  width: 70px;
+  height: 70px;
+}
+
+header>div div p {
+  float: right;
+  font-size: 30px;
+}
+
+header>div ul {
+  float: right;
+  font-size: 20px;
+}
+
+/* FIN HEADER */
+/* ---------------------------------------- */
+
+#previsions>* {
+  border-top: 2px solid rgb(145, 144, 144);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#previsions div {
+  display: block;
+}
+
+#previsions div p {
+  margin: 2px;
+}
+
+/* FIN ID PREVISIONS */
+/* ---------------------------------------- */
+
+@media screen and (min-width: 400px) {
+  header>div ul {
+    margin-right: 25%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  header>div ul {
+    margin-right: 50%;
+  }
+
+  main section>* {
+    display: block;
+    width: 20%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+  background-color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.7em;
+}

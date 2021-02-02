@@ -1,0 +1,58 @@
+div {
+    border: 1px solid black;
+}
+
+.content-box {
+    box-sizing: content-box;
+    width: 100%;
+
+}
+
+.figure1 {
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    height: 1100px;
+    width: 2000px;
+    position: absolute;
+}
+
+.figure2 {
+    background-color: rgb(255, 255, 255);
+    padding: 200px;
+    height: 80px;
+    width: 160px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+
+}
+
+.figure3 {
+    background-color: rgb(255, 255, 255);
+    padding: 200px;
+    height: 80px;
+    width: 160px;
+    position: absolute;
+    top: 50px;
+    left: 900px;
+}
+
+.figure4 {
+    background-color: rgb(255, 255, 255);
+    padding: 200px;
+    height: 80px;
+    width: 160px;
+    position: absolute;
+    left: 100px;
+    top: 660px;
+}
+
+.figure5 {
+    background-color: rgb(255, 255, 255);
+    padding: 200px;
+    height: 80px;
+    width: 160px;
+    position: absolute;
+    top: 660px;
+    left: 900px;
+}

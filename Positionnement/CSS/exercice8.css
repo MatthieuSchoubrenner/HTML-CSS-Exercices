@@ -1,0 +1,61 @@
+body,
+html {
+    height: 100%;
+}
+
+
+nav {
+    border: 1px solid rgb(210, 105, 30);
+    border-radius: 20px 20px 20px 20px;
+    width: 130px;
+    height: 130px;
+    background-color: rgb(210, 105, 30);
+    float: left;
+    position: sticky;
+    top: 0px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+
+.introduction,
+p {
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+
+.descendre,
+img {
+    position: relative;
+    top: 50px;
+    text-align: center;
+
+}
+
+.voilà,
+img {
+    position: relative;
+    top: 400px;
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.basdepage {
+    position: relative;
+    bottom: 30px;
+}

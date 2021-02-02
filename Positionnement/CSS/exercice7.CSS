@@ -1,0 +1,59 @@
+div {
+    border: 1px solid black;
+}
+
+.content-box {
+    box-sizing: content-box;
+    width: 100%;
+    display: inline;
+}
+
+.figure1 {
+    background-color: rgb(0, 0, 0);
+    padding: 80px;
+    height: 50px;
+    position: relative;
+    top: 300px;
+}
+
+.figure2 {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    position: relative;
+    bottom: 193px;
+}
+
+.figure3 {
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    height: 200px;
+    width: 200px;
+    float: left;
+    position: relative;
+    bottom: 193px;
+}
+
+.figure4 {
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    height: 200px;
+    width: 200px;
+    float: inline-end;
+    position: relative;
+    left: 1340px;
+    top: 300px;
+
+}
+
+.figure5 {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    height: 200px;
+    width: 200px;
+    float: right;
+    position: relative;
+    top: 17px;
+}

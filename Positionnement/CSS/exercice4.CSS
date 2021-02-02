@@ -1,0 +1,41 @@
+div {
+    border: 1px solid black;
+}
+
+.figure1 {
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    height: 200px;
+    position: relative;
+}
+
+.figure2 {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 500px;
+    left: 800px;
+
+}
+
+.figure3 {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    height: 85px;
+    width: 85px;
+    position: absolute;
+    top: 45px;
+    left: 40px;
+}
+
+.figure4 {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    height: 85px;
+    width: 85px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
